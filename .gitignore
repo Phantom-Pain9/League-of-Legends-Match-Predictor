@@ -1,0 +1,30 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyTorch checkpoints (optional tracking)
+*.pt.tmp
+*.pth.tmp
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
